@@ -8,11 +8,11 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.shoeshop</groupId>
-	<artifactId>shoeshop</artifactId>
+	<groupId>com.ecom</groupId>
+	<artifactId>ecom</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>shoeshop</name>
-	<description>Project for Shoe Shop</description>
+	<name>ecom</name>
+	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -44,6 +44,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
